@@ -1,6 +1,6 @@
 # loading
 
-Displays an animated image while it loads all assets or waits for a slow server respnse.  It provides users visiting a slow site the assurance the site is indeed working.
+Displays an animated image while it loads all assets or waits for a slow server response.  It provides users visiting a slow site the assurance the site is indeed working.
 
 ## Dependencies
 Any Web server
