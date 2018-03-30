@@ -1,13 +1,48 @@
 <html>
   <head>
     <title>Loading Experiment</title>
+    <link rel="stylesheet" type="text/css" href="chartloader.css">
+    <style>
+      .container {
+        text-align: center;
+        font-family: 'Trebuchet MS',Verdana,sans-serif;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 10;
+      }
+      .innercontainer {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 300px;
+      }
+      .innercontainer h2 {
+        font-size: 32px;
+        border: none;
+      }
+    </style>
   </head>
   <body>
 
-    <div id="page-loading">
-      <h2>
-          &nbsp;<img !--style="display:block; margin:0 auto;"-- src="ajax-loader.gif">&nbsp; L o a d i n g ...
-      </h2>
+    <div id="page-loading" class="container">
+      <div class="innercontainer">
+        <h2>Patient Logs 2.0</h2>
+        <p>The application will be displayed in a moment...</p>
+        <div class="loader">
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__ball"></div>
+        </div>
+      </div>
     </div>
 
     <script type="text/javascript">
